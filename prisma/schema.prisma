@@ -12,22 +12,39 @@ datasource db {
 }
 
 model User {
-  id       Int    @id @default(autoincrement())
+  id       Int       @id @default(autoincrement())
   name     String
-  username String @unique
+  username String    @unique
   avatar   String
-  Post     Post[]
+  posts    Post[]
+  comments comment[]
 }
 
 model Post {
-  id        Int      @id @default(autoincrement())
+  id        Int       @id @default(autoincrement())
   cover     String
   title     String
-  slug      String   @unique
+  slug      String    @unique
   body      String
   markdown  String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
   authorId  Int
-  author    User     @relation(fields: [authorId], references: [id])
+  author    User      @relation(fields: [authorId], references: [id])
+  comments  comment[]
+  likes     Int       @default(0)
+}
+
+model comment {
+  id        Int       @id @default(autoincrement())
+  text      String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  authorId  Int
+  author    User      @relation(fields: [authorId], references: [id])
+  postId    Int
+  post      Post      @relation(fields: [postId], references: [id])
+  parentId  Int?
+  parent    comment?  @relation("commentChildren", fields: [parentId], references: [id])
+  comments  comment[] @relation("commentChildren")
 }
