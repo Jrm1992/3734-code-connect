@@ -53,6 +53,7 @@ export default async function Home({ searchParams }) {
         {prev && <Link href={{ pathname: '/', query: { page: prev, q: searchTerm } }}>Página anterior</Link>}
         {next && <Link href={{ pathname: '/', query: { page: next, q: searchTerm } }}>Próxima página</Link>}
       </div>
+      
     </main>
   )
 }

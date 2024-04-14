@@ -1,0 +1,9 @@
+.modal {
+  background-color: #3e3e3f;
+  border-radius: 32px;
+  padding: 24px;
+}
+
+.modal ::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
