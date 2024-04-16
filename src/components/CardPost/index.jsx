@@ -26,7 +26,7 @@ export const CardPost = ({ post, highlight }) => {
                 <Link href={`/posts/${post.slug}`}>ver detalhes</Link>
             </section>
             <footer className={styles.footer}>
-                <div>
+                <div className={styles.footer_content}>
                     <form action={submitThumbsUp}>
                         <ThumbsUpButton />
                         <p>

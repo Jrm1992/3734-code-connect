@@ -53,6 +53,11 @@
     text-align: center;
 }
 
+.footer_content {
+    display: flex;
+    gap: 16px;
+}
+
 .link {
     text-decoration: none;
     cursor: pointer;
