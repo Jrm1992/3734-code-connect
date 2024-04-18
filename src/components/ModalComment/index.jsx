@@ -7,12 +7,12 @@ import { Modal } from "../Modal"
 import { SubmitButton } from "../ModalComment/submitButton"
 import styles from './modalComment.module.css'
 
-export const ModalComment = () => {
+export const ModalComment = ({ action }) => {
   const modalRef = useRef(null)
   return (
     <>
       <Modal ref={modalRef}>
-        <form className={styles.form} action="">
+        <form className={styles.form} action={action}>
           <h2 className={styles.title}>Deixe seu comentário sobre o post:</h2>
           <textarea
             name="comment"
