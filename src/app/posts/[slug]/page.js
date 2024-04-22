@@ -55,7 +55,7 @@ const PagePost = async ({ params }) => {
         <div className={styles.code}>
             <div dangerouslySetInnerHTML={{ __html: post.markdown }} />
         </div>
-        <div>
+        <div className={styles.comments}>
             <h2>Comentarios</h2>
             <CommentList comments={post.comments} />
         </div>

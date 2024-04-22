@@ -1,0 +1,7 @@
+.comment {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-bottom:  1px solid #3E3E3F
+;
+}

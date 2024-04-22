@@ -17,3 +17,16 @@
     font-weight: 600;
     line-height: 150%;
 }
+
+.comments {
+    background-color: #888888;
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.comments ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
