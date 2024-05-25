@@ -6,3 +6,12 @@
 {"error":{"clientVersion":"5.9.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
 {"error":{"clientVersion":"5.9.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
 {"error":{"clientVersion":"5.9.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","code":"P2021","meta":{"modelName":"Post","table":"public.Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","code":"P2021","meta":{"modelName":"Post","table":"public.Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"dicas-de-acessibilidade-web"}
+{"error":{"clientVersion":"5.9.1","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"gerenciamento-de-estado-com-redux"}
+{"error":{"clientVersion":"5.9.1","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"dicas-de-acessibilidade-web"}
+{"error":{"clientVersion":"5.9.1","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"dicas-de-acessibilidade-web"}
+{"error":{"clientVersion":"5.9.1","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"angular-primeiros-passos"}
+{"error":{"clientVersion":"5.9.1","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"angular-primeiros-passos"}
+{"error":{"clientVersion":"5.9.1","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Falha ao obter o post com o slug: ","slug":"angular-primeiros-passos"}

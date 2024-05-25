@@ -24,7 +24,7 @@ export const ModalReply = ({ comment, post }) => {
             <Comment comment={comment} />
           </div>
           <div className={styles.divider}></div>
-          <textarea required rows={8} name="text" placeholder="Digite aqui..." />
+          <textarea className={styles.text_area} required rows={8} name="text" placeholder="Digite aqui..." />
           <div className={styles.footer}>
             <SubmitButton>
               Responder

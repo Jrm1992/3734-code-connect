@@ -27,3 +27,11 @@
 .body p {
     color: #E1E1E1;
 }
+
+.text_area {
+    width: 100%;
+    border-radius: 8px;
+    background: #BCBCBC;
+    border: none;
+    padding: 16px;
+}
